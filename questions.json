@@ -1,0 +1,77 @@
+[
+    {
+        "question": "What is the capital of Western Australia?",
+        "answers": [
+            {
+                "text": "Fremantle",
+                "correct": false,
+                "feedback": "Fremantle is the largest port city but not the capital."
+            },
+            {
+                "text": "Australind",
+                "correct": false,
+                "feedback": "Australind sounds like a good name for a capital but it's not the capital."
+            },
+            {
+                "text": "Perth",
+                "correct": true,
+                "feedback": "Correct! Perth is the capital of Western Australia."
+            },
+            {
+                "text": "Canberra",
+                "correct": false,
+                "feedback": "Canberra is the capital of Australia."
+            }
+        ]
+    },
+    {
+        "question": "Which is the largest ocean on Earth?",
+        "answers": [
+            {
+                "text": "Atlantic Ocean",
+                "correct": false,
+                "feedback": "The Atlantic is large but not the largest."
+            },
+            {
+                "text": "Indian Ocean",
+                "correct": false,
+                "feedback": "The Indian Ocean is large, but the Pacific is larger."
+            },
+            {
+                "text": "Pacific Ocean",
+                "correct": true,
+                "feedback": "Correct! The Pacific Ocean is the largest."
+            },
+            {
+                "text": "Arctic Ocean",
+                "correct": false,
+                "feedback": "The Arctic Ocean is the smallest, not the largest."
+            }
+        ]
+    },
+    {
+        "question": "What is the chemical symbol for water?",
+        "answers": [
+            {
+                "text": "O2",
+                "correct": false,
+                "feedback": "O2 is the chemical symbol for oxygen."
+            },
+            {
+                "text": "H2O",
+                "correct": true,
+                "feedback": "Correct! H2O is the chemical symbol for water."
+            },
+            {
+                "text": "CO2",
+                "correct": false,
+                "feedback": "CO2 is the chemical symbol for carbon dioxide."
+            },
+            {
+                "text": "H2",
+                "correct": false,
+                "feedback": "H2 is hydrogen, not water."
+            }
+        ]
+    }
+]

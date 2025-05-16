@@ -1,5 +1,11 @@
 document.addEventListener("DOMContentLoaded", () => {
-    fetch("questions.json")
+    // Extract the topic parameter from the URL (e.g., ?topic=cybersecurity)
+    const urlParams = new URLSearchParams(window.location.search);
+    const topic = urlParams.get("topic") || "default";
+    const questionsFile = `${topic}.json`;
+
+    // Fetch the correct questions file based on the topic
+    fetch(questionsFile)
         .then(response => response.json())
         .then(questions => {
             let currentQuestionIndex = 0;
@@ -60,7 +66,12 @@ document.addEventListener("DOMContentLoaded", () => {
                 }
             });
 
+            // Start the quiz with the first question
             showQuestion(questions[currentQuestionIndex]);
         })
-        .catch(error => console.error("Error loading questions:", error));
+        .catch(error => {
+            console.error("Error loading questions:", error);
+            const quizContainer = document.querySelector(".quiz-container");
+            quizContainer.innerHTML = `<h2>Error Loading Quiz</h2><p>Could not load the quiz for topic: ${topic}</p>`;
+        });
 });

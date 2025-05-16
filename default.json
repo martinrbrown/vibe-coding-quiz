@@ -1,77 +1,31 @@
-[
-    {
-        "question": "What is the capital of Western Australia?",
-        "answers": [
-            {
-                "text": "Fremantle",
-                "correct": false,
-                "feedback": "Fremantle is the largest port city but not the capital."
-            },
-            {
-                "text": "Australind",
-                "correct": false,
-                "feedback": "Australind sounds like a good name for a capital but it's not the capital."
-            },
-            {
-                "text": "Perth",
-                "correct": true,
-                "feedback": "Correct! Perth is the capital of Western Australia."
-            },
-            {
-                "text": "Canberra",
-                "correct": false,
-                "feedback": "Canberra is the capital of Australia."
+{
+    "questions": [
+        {
+            "text": "What percentage of the Earth's surface is covered by oceans?",
+            "options": ["50%", "60%", "70%", "80%"],
+            "answer": 2,
+            "feedback": {
+                "correct": "Correct! About 70% of the Earth's surface is covered by oceans.",
+                "incorrect": "Not quite. The correct answer is 70%."
             }
-        ]
-    },
-    {
-        "question": "Which is the largest ocean on Earth?",
-        "answers": [
-            {
-                "text": "Atlantic Ocean",
-                "correct": false,
-                "feedback": "The Atlantic is large but not the largest."
-            },
-            {
-                "text": "Indian Ocean",
-                "correct": false,
-                "feedback": "The Indian Ocean is large, but the Pacific is larger."
-            },
-            {
-                "text": "Pacific Ocean",
-                "correct": true,
-                "feedback": "Correct! The Pacific Ocean is the largest."
-            },
-            {
-                "text": "Arctic Ocean",
-                "correct": false,
-                "feedback": "The Arctic Ocean is the smallest, not the largest."
+        },
+        {
+            "text": "Which ocean is the largest by surface area?",
+            "options": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+            "answer": 3,
+            "feedback": {
+                "correct": "Well done! The Pacific Ocean is the largest, covering more than 63 million square miles.",
+                "incorrect": "The correct answer is the Pacific Ocean."
             }
-        ]
-    },
-    {
-        "question": "What is the chemical symbol for water?",
-        "answers": [
-            {
-                "text": "O2",
-                "correct": false,
-                "feedback": "O2 is the chemical symbol for oxygen."
-            },
-            {
-                "text": "H2O",
-                "correct": true,
-                "feedback": "Correct! H2O is the chemical symbol for water."
-            },
-            {
-                "text": "CO2",
-                "correct": false,
-                "feedback": "CO2 is the chemical symbol for carbon dioxide."
-            },
-            {
-                "text": "H2",
-                "correct": false,
-                "feedback": "H2 is hydrogen, not water."
+        },
+        {
+            "text": "What is the average depth of the ocean?",
+            "options": ["1,000 meters", "3,800 meters", "5,000 meters", "10,000 meters"],
+            "answer": 1,
+            "feedback": {
+                "correct": "Great job! The average depth of the ocean is about 3,800 meters.",
+                "incorrect": "The correct answer is about 3,800 meters."
             }
-        ]
-    }
-]
+        }
+    ]
+}

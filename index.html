@@ -3,22 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Accessible Multiple Choice Quiz</title>
+    <title>Oceanography Quiz</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
 </head>
 <body>
-    <main class="quiz-container">
-        <h1>Responsive Accessible Multiple Choice Quiz</h1>
-        <div class="question" id="question-container">
-            <h2 id="question">Loading question...</h2>
-            <ul id="answers" role="list">
-                <!-- Answer options will be generated here -->
-            </ul>
-            <button id="submit-button" class="submit-button" disabled>Submit</button>
-            <button id="next-button" class="next-button" disabled>Next Question</button>
-            <p id="feedback" class="feedback" aria-live="polite"></p>
-        </div>
-    </main>
+    <div class="quiz-container">
+        <h1>Oceanography Quiz</h1>
+        <form id="quiz-form">
+            <div id="quiz-questions"></div>
+            <button type="submit">Submit</button>
+            <div id="quiz-feedback"></div>
+        </form>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>

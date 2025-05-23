@@ -1,20 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oceanography Quiz</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CPACC Accessibility Quiz</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <div class="quiz-container">
-        <h1>Oceanography Quiz</h1>
-        <form id="quiz-form">
-            <div id="quiz-questions"></div>
-            <button type="submit">Submit</button>
-            <div id="quiz-feedback"></div>
-        </form>
-    </div>
+    <main role="main" class="quiz-container">
+        <div id="quiz" aria-live="polite"></div>
+        <button id="nextBtn" aria-label="Next question" class="hidden">Next</button>
+    </main>
     <script src="script.js"></script>
 </body>
 </html>
